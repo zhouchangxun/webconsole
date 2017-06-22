@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>index</title>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/admin/socket.io-stream.js"></script>
+    <script src="/admin/terminal.js"></script>
+    <style>
+        .terminaljs {
+        background: black;
+        color: white;
+               font-family: Courier, monospace;
+        display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <pre class="terminaljs" data-columns="80" data-rows="24"></pre>
+    <script src="/admin/webterm.js"></script>
+</body>
+</html>

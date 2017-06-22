@@ -1,0 +1,16 @@
+{
+  "name": "webconsole",
+  "version": "1.0.0",
+  "description": "A simple webterminal using terminal.js and child_pty",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "changxun",
+  "license": "MIT",
+  "dependencies": {
+    "child_pty": "^3.0.0",
+    "socket.io": "^1.4.5",
+    "socket.io-stream": "^0.9.0",
+    "terminal.js": "^1.0.3"
+  }
+}

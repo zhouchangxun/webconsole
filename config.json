@@ -1,0 +1,3 @@
+{
+    "login": "echo \"welcome to web console! ^_^\";export TERM=linux; /bin/bash"
+}
